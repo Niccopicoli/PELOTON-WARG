@@ -63,18 +63,19 @@ nav ul li .active {
   width: 100%;
   height: calc(100vh - 100px);
 }
+
 .msjerror__contenedor {
   text-align: center;
-  color: black;
-  h1 {
-    font-size: 60px;
-    margin: 0px;
-  }
-  p {
-    font-size: 18px;
-  }
+  color: #fff;
 }
-.animated {
+.error404 {
+  font-size: 60px;
+  margin: 0px;
+}
+.text404 {
+  font-size: 18px;
+}
+.error404 {
   animation-duration: 2.5s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
@@ -103,7 +104,7 @@ nav ul li .active {
   }
 }
 
-.bounce {
+.error404 {
   animation-name: bounce;
 }
 
@@ -114,7 +115,7 @@ nav ul li .active {
   width: 100%;
 }
 .footer404 a {
-  color: black;
+  color: #c0d96f;
   font-size: 14px;
   padding-left: 30px;
   text-decoration: none;
