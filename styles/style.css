@@ -1,18 +1,21 @@
-/*reset css*/
+/*reset css - global*/
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
-  background-color: rgb(26, 29, 29);
+  background-color: #1a1d1d;
 }
+
 main {
   margin-top: 75px;
 }
-/*header*/
 
+/*header*/
 nav {
   font-family: "Poppins", sans-serif;
   width: 100%;
@@ -21,25 +24,30 @@ nav {
   line-height: 75px;
   padding: 0px 50px;
 }
+
 nav .logo {
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 1.5px;
   font-family: "Poppins", sans-serif;
 }
+
 nav .logo p {
   float: left;
   color: #fff;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
+
 nav ul {
   float: right;
 }
+
 nav ul li {
   display: inline-block;
   list-style: none;
 }
+
 nav ul li a {
   color: #fff;
   text-decoration: none;
@@ -47,19 +55,30 @@ nav ul li a {
   text-transform: uppercase;
   padding: 0px 32px;
 }
+
 nav ul li a:hover {
   color: #c0d96f;
 }
+
 nav ul li .active {
   color: #c0d96f;
 }
-/*404 error */
 
+/*404 error */
 .msjerror {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   height: calc(100vh - 100px);
 }
@@ -68,67 +87,122 @@ nav ul li .active {
   text-align: center;
   color: #fff;
 }
+
 .error404 {
   font-size: 60px;
   margin: 0px;
 }
+
 .text404 {
   font-size: 18px;
 }
+
 .error404 {
-  animation-duration: 2.5s;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
-@keyframes bounce {
+
+@-webkit-keyframes bounce {
   0% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   20% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   50% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   80% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   100% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   40% {
-    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
   }
   60% {
-    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  80% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
   }
 }
 
 .error404 {
-  animation-name: bounce;
+  -webkit-animation-name: bounce;
+          animation-name: bounce;
 }
 
 .footer404 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 100px;
   width: 100%;
 }
+
 .footer404 a {
   color: #c0d96f;
   font-size: 14px;
   padding-left: 30px;
   text-decoration: none;
 }
+
 .footer404 a:hover {
   text-decoration: none;
 }
-/*Nosotros Astronautas*/
 
+/*Nosotros Astronautas*/
 .fotointegrante {
   margin: 50px;
 }
+
 .prueba {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: auto;
   height: 100vh;
@@ -140,6 +214,7 @@ nav ul li .active {
   padding: 80px;
   margin: 10px;
 }
+
 .imgprueba {
   padding: 80px;
   margin: 10px;
@@ -153,13 +228,22 @@ nav ul li .active {
   border-radius: 50%;
   margin-bottom: 5px;
 }
+
 .astronautas {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 20px;
 }
+
 .texastronauta {
   text-decoration: none;
   color: black;
@@ -167,23 +251,33 @@ nav ul li .active {
   padding: 10px;
   margin: auto;
 }
+
 .buttonastronauta {
   padding-left: 5px;
   margin-left: 10px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
 }
+
 /*Contacto*/
 form {
   width: 450px;
   margin: auto;
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 8px;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .contacto {
   color: #fff;
   text-align: center;
@@ -192,28 +286,34 @@ form {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+
 input,
 textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 17px;
   border: none;
 }
+
 textarea {
   min-height: 100px;
   max-height: 200px;
   max-width: 100%;
   min-width: 410px;
 }
+
 .botoncontacto {
   text-transform: uppercase;
   border: none;
   border-radius: 8px;
 }
+
 label {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 2px;
 }
+/*# sourceMappingURL=style.css.map */

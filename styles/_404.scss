@@ -1,0 +1,70 @@
+/*404 error */
+
+.msjerror {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+.msjerror__contenedor {
+  text-align: center;
+  color: #fff;
+}
+.error404 {
+  font-size: 60px;
+  margin: 0px;
+}
+.text404 {
+  font-size: 18px;
+}
+.error404 {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.error404 {
+  animation-name: bounce;
+}
+
+.footer404 {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  width: 100%;
+}
+.footer404 a {
+  color: #c0d96f;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+.footer404 a:hover {
+  text-decoration: none;
+}
