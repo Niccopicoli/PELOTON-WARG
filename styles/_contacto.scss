@@ -37,8 +37,17 @@ textarea {
   border: none;
   border-radius: 8px;
 }
+.botoncontacto:hover {
+  cursor: pointer;
+}
+
 label {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 2px;
+}
+@media (max-width: 480) {
+  form {
+    width: 100%;
+  }
 }
