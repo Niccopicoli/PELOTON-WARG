@@ -443,7 +443,7 @@ label {
 
 /*footer*/
 footer {
-  position: absolute;
+  position: relative;
   background-color: #0f0f0f;
   bottom: 0;
   width: 100%;
