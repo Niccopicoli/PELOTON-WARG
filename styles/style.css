@@ -111,6 +111,7 @@ nav .logo p {
 
 nav ul {
   float: right;
+  margin-bottom: 0px;
 }
 
 nav ul li {
