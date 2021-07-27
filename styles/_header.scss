@@ -75,8 +75,12 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .brand-title {
+    margin: auto;
+  }
   .toggle-button {
     display: flex;
+    margin: auto;
   }
   #navbar-links {
     display: none;
@@ -91,5 +95,10 @@
   }
   #navbar-links ul li a {
     padding: 0.5rem 1rem;
+  }
+}
+@media (max-width: 970px) and (min-width: 750px) {
+  .brand-title {
+    margin: auto;
   }
 }
