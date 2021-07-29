@@ -670,6 +670,13 @@ footer {
   text-decoration: none;
 }
 
+.imgfooter:hover {
+  background: #c0d96f;
+  -webkit-box-shadow: 0 0 10px #c0d96f, 0 0 40px #c0d96f, 0 0 80px #c0d96f;
+          box-shadow: 0 0 10px #c0d96f, 0 0 40px #c0d96f, 0 0 80px #c0d96f;
+  border-radius: 25px;
+}
+
 .textfooter {
   margin-top: 15px;
   text-transform: uppercase;
