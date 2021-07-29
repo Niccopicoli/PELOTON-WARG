@@ -103,7 +103,10 @@
 }
 
 body {
-  background-color: #1a1d1d;
+  /*background-color: rgb(26, 29, 29);*/
+  background: url(/img/estrellas.jpg);
+  background-size: 100vh;
+  background-attachment: fixed;
 }
 
 main {
@@ -551,6 +554,7 @@ main {
 form {
   width: 450px;
   margin: auto;
+  margin-bottom: 50px;
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
   -webkit-box-sizing: border-box;
@@ -599,6 +603,9 @@ textarea {
 
 .botoncontacto:hover {
   cursor: pointer;
+  background: #c0d96f;
+  -webkit-box-shadow: 0 0 10px #c0d96f, 0 0 40px #c0d96f, 0 0 80px #c0d96f;
+          box-shadow: 0 0 10px #c0d96f, 0 0 40px #c0d96f, 0 0 80px #c0d96f;
 }
 
 label {
