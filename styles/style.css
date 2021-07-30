@@ -89,7 +89,7 @@
 }
 
 /*responsive index*/
-@media (min-height: 1366px) {
+@media (min-height: 1350px) {
   .fotocarousel {
     height: 85%vh;
   }
