@@ -572,6 +572,59 @@ main {
   height: 550px;
 }
 
+/*responsive nosotros*/
+@media (max-width: 1100px) {
+  .nosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 770px) {
+  .textpresentaciones {
+    font-size: 1.5rem;
+  }
+  .titlepresentaciones {
+    font-size: 2.3rem;
+    letter-spacing: 1.3px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .astronautas {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 60vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .astronautas {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 /*Contacto*/
 form {
   width: 450px;

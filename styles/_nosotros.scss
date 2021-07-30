@@ -133,3 +133,35 @@
   width: 550px;
   height: 550px;
 }
+/*responsive nosotros*/
+@media (max-width: 1100px) {
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 770px) {
+  .textpresentaciones {
+    font-size: 1.5rem;
+  }
+  .titlepresentaciones {
+    font-size: 2.3rem;
+    letter-spacing: 1.3px;
+    text-align: center;
+  }
+}
+@media (max-width: 1000px) {
+  .astronautas {
+    flex-direction: column;
+    height: 60vh;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .astronautas {
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+  }
+}
