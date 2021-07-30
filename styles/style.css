@@ -106,7 +106,7 @@
 
 body {
   /*background-color: rgb(26, 29, 29);*/
-  background: url(./img/estrellas.jpg);
+  background: url(/img/estrellas.jpg);
   background-size: 100vh;
   background-attachment: fixed;
 }
