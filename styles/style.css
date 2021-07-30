@@ -34,11 +34,6 @@
   overflow: hidden;
 }
 
-.fotocarousel {
-  width: 100%;
-  height: 85vh;
-}
-
 /*Presentacion index*/
 .somoswarg {
   font-size: 3rem;
@@ -91,6 +86,13 @@
   color: #fff;
   font-size: 1.3rem;
   text-transform: uppercase;
+}
+
+/*responsive index*/
+@media (min-height: 1366px) {
+  .fotocarousel {
+    height: 85%vh;
+  }
 }
 
 /*reset css - global*/
