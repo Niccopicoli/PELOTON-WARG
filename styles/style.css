@@ -612,7 +612,7 @@ main {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .astronautas {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
