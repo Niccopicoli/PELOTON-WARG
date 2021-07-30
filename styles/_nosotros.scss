@@ -1,28 +1,5 @@
 /*Nosotros Astronautas*/
 
-.fotointegrante {
-  margin: 50px;
-}
-.prueba {
-  display: flex;
-  width: auto;
-  height: 85vh;
-}
-
-.textoprueba {
-  color: rgba(255, 255, 255, 0.801);
-  font-size: 1.5rem;
-  padding: 80px;
-  margin: 10px;
-  font-family: "Poppins", sans-serif;
-}
-.imgprueba {
-  padding: 60px;
-  margin: 10px;
-  width: 550px;
-  height: 550px;
-}
-
 .img-circle {
   box-sizing: border-box;
   width: 220px;
@@ -36,18 +13,22 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  padding: 25px;
-  height: 100vh;
+  padding: 0 25px 0 25px;
+  height: 80vh;
 }
 .texastronauta {
   text-align: center;
+  justify-content: center;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.801);
-  text-transform: uppercase;
-  padding: 10px;
+  color: #fff;
+  padding: auto;
   margin: auto;
+  letter-spacing: 1.5px;
+  font-family: "Zen Dots", sans-serif;
 }
-
+.nombres {
+  font-family: "Zen Dots", sans-serif;
+}
 .featurette-divider {
   color: #fff;
 }
@@ -124,4 +105,31 @@
   bottom: 100%;
   transition: 1s;
   transition-delay: 0.75s;
+}
+/*Presentaciones*/
+.nosotros {
+  display: flex;
+}
+.presentaciones {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+  align-items: center;
+}
+.titlepresentaciones {
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+.textpresentaciones {
+  color: #fff;
+  font-size: 1.7rem;
+  margin: auto;
+  text-align: justify;
+}
+.imgprueba {
+  padding: 60px;
+  margin: 10px;
+  width: 550px;
+  height: 550px;
 }

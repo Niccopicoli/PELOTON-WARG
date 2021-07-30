@@ -385,33 +385,6 @@ main {
 }
 
 /*Nosotros Astronautas*/
-.fotointegrante {
-  margin: 50px;
-}
-
-.prueba {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: auto;
-  height: 85vh;
-}
-
-.textoprueba {
-  color: rgba(255, 255, 255, 0.801);
-  font-size: 1.5rem;
-  padding: 80px;
-  margin: 10px;
-  font-family: "Poppins", sans-serif;
-}
-
-.imgprueba {
-  padding: 60px;
-  margin: 10px;
-  width: 550px;
-  height: 550px;
-}
-
 .img-circle {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -434,17 +407,25 @@ main {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 25px;
-  height: 100vh;
+  padding: 0 25px 0 25px;
+  height: 80vh;
 }
 
 .texastronauta {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.801);
-  text-transform: uppercase;
-  padding: 10px;
+  color: #fff;
+  padding: auto;
   margin: auto;
+  letter-spacing: 1.5px;
+  font-family: "Zen Dots", sans-serif;
+}
+
+.nombres {
+  font-family: "Zen Dots", sans-serif;
 }
 
 .featurette-divider {
@@ -548,6 +529,47 @@ main {
   transition: 1s;
   -webkit-transition-delay: 0.75s;
           transition-delay: 0.75s;
+}
+
+/*Presentaciones*/
+.nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.presentaciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titlepresentaciones {
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+.textpresentaciones {
+  color: #fff;
+  font-size: 1.7rem;
+  margin: auto;
+  text-align: justify;
+}
+
+.imgprueba {
+  padding: 60px;
+  margin: 10px;
+  width: 550px;
+  height: 550px;
 }
 
 /*Contacto*/
