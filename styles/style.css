@@ -40,7 +40,7 @@
   text-align: center;
   margin: 30px;
   color: #c0d96f;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
@@ -52,28 +52,24 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 50px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .textinicio {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  width: 550px;
+  height: 450px;
   color: #fff;
+  text-align: justify;
   margin: auto;
-  padding: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: justify;
+  padding-top: 50px;
   font-size: 1.5rem;
+}
+
+.videoinicio {
+  width: 550px;
+  height: 450px;
+  margin-left: 50px;
 }
 
 /*responsive index*/
@@ -83,15 +79,46 @@
   }
 }
 
-@media (max-height: 1250px) {
+@media (max-width: 1200px) {
   .inicio {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .videoinicio {
+    margin: auto;
+  }
+  .textinicio {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .videoinicio {
+    width: 450px;
+    height: 350px;
+  }
+  .textinicio {
+    font-size: 1.2rem;
+    width: 450px;
+    height: 350px;
+  }
+  .somoswarg {
+    letter-spacing: 1.4px;
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .textinicio {
+    font-size: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -616,7 +643,7 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 60vh;
+    height: 40vh;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

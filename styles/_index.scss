@@ -28,7 +28,7 @@
   text-align: center;
   margin: 30px;
   color: #c0d96f;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
@@ -37,18 +37,21 @@
 }
 .inicio {
   display: flex;
-  height: 80vh;
-  align-items: center;
-  margin: 50px;
+  justify-content: space-around;
 }
 .textinicio {
-  flex-direction: column;
+  width: 550px;
+  height: 450px;
   color: #fff;
+  text-align: justify;
   margin: auto;
-  padding: 50px;
-  align-items: center;
-  justify-content: justify;
+  padding-top: 50px;
   font-size: 1.5rem;
+}
+.videoinicio {
+  width: 550px;
+  height: 450px;
+  margin-left: 50px;
 }
 
 /*responsive index*/
@@ -57,9 +60,38 @@
     height: 85%vh;
   }
 }
-@media (max-height: 1250px) {
+@media (max-width: 1200px) {
   .inicio {
-    display: flex;
     flex-direction: column;
+  }
+  .videoinicio {
+    margin: auto;
+  }
+  .textinicio {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 750px) {
+  .videoinicio {
+    width: 450px;
+    height: 350px;
+  }
+  .textinicio {
+    font-size: 1.2rem;
+    width: 450px;
+    height: 350px;
+  }
+  .somoswarg {
+    letter-spacing: 1.4px;
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 750px) {
+  .textinicio {
+    font-size: 1rem;
+    align-items: center;
   }
 }
