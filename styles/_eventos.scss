@@ -1,0 +1,127 @@
+/*eventos*/
+.eventos {
+  background-image: url(/img/imgeventos.jpg);
+
+  min-height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleeventos {
+  color: #fff;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  font-weight: bold;
+}
+.titleagenda {
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin: 50px;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+/*lado calendario*/
+.calendario {
+  text-align: center;
+  width: 320px;
+  height: 210px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+}
+.ladoagenda {
+  width: 320px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.calendario h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2rem;
+}
+.calendario ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0;
+}
+.calendario ol li {
+  text-align: right;
+  color: #fff;
+}
+
+.agendado {
+  color: #c0d96f !important;
+}
+.calendario ol li {
+  text-align: right;
+}
+
+.first-day {
+  grid-column-start: 5;
+}
+
+.day {
+  color: #c0d96f !important;
+  font-weight: bold;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+  background: black;
+}
+.agendado {
+  color: #c0d96f;
+}
+/*lado eventos img*/
+.imgeventos {
+  width: 180px;
+  height: 180px;
+  padding-left: 5px;
+  border-radius: 8px;
+}
+.proximoseventos h2 {
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+.proximoseventos {
+  display: flex;
+
+  margin: 50px;
+}
+.agenda {
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  width: 500px;
+  padding-top: 10px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  padding-right: 20px;
+  justify-content: space-evenly;
+}
+.agenda h4 {
+  color: #c0d96f;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.agenda p {
+  padding-left: 10px;
+  color: #fff;
+  padding-right: 100px;
+  padding-top: 0;
+}
