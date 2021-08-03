@@ -940,6 +940,11 @@ footer {
   border-radius: 8px;
 }
 
+.imgeventos:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 .proximoseventos h2 {
   color: #fff;
   text-transform: uppercase;
