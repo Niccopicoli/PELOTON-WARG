@@ -29,6 +29,12 @@
   letter-spacing: 2px;
   font-weight: bold;
 }
+/*proximos eventos*/
+.proximoseventos {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
 /*lado calendario*/
 .calendario {
   text-align: center;
@@ -36,13 +42,7 @@
   height: 210px;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 8px;
-}
-.ladoagenda {
-  width: 320px;
-  height: 400px;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 8px;
-  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .calendario h3 {
   text-transform: uppercase;
@@ -80,8 +80,17 @@
   padding: 0;
   background: black;
 }
-.agendado {
-  color: #c0d96f;
+.abajocalendario {
+  width: 320px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  margin-top: 50px;
+}
+.abajocalendario p {
+  color: #fff;
+  text-align: left;
+  padding: 10px;
 }
 /*lado eventos img*/
 .imgeventos {
@@ -98,17 +107,12 @@
   margin-bottom: 15px;
   margin-top: 40px;
 }
-.proximoseventos {
-  display: flex;
-
-  margin: 50px;
-}
 .agenda {
   background: rgba(0, 0, 0, 0.6);
   display: flex;
   width: 500px;
   padding-top: 10px;
-  margin-right: 200px;
+
   margin-bottom: 30px;
   padding-right: 20px;
   justify-content: space-evenly;
@@ -124,4 +128,32 @@
   color: #fff;
   padding-right: 100px;
   padding-top: 0;
+}
+
+/*responsive eventos*/
+@media (max-width: 1100px) {
+  .eventos {
+    width: 100%;
+    min-height: 20vh;
+    background-position: center;
+    background-attachment: relative;
+    background-size: cover;
+  }
+  .proximoseventos {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+    position: relative;
+  }
+  .titleeventos {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
 }
