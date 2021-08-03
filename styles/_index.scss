@@ -43,13 +43,27 @@
   justify-content: space-around;
 }
 .textinicio {
-  width: 550px;
+  width: 600px;
   height: 450px;
   color: #fff;
-  text-align: justify;
+
   margin: auto;
-  padding-top: 50px;
-  font-size: 1.5rem;
+  padding: 20px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-decoration: none;
+}
+.textinicio a {
+  background: none;
+  color: #c0d96f;
+  font-weight: bold;
+}
+.contactoinicio {
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
 }
 .videoinicio {
   width: 550px;
