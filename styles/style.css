@@ -34,6 +34,10 @@
   overflow: hidden;
 }
 
+.fotocarousel {
+  max-height: 85vh;
+}
+
 /*Presentacion index*/
 .somoswarg {
   font-size: 3rem;
@@ -856,10 +860,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin: 50px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 /*lado calendario*/
