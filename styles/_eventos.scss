@@ -79,7 +79,7 @@
   text-transform: uppercase;
   background: black;
 }
-.abajocalendario {
+.bajocalendario {
   width: 320px;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
@@ -88,7 +88,7 @@
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-.abajocalendario p {
+.bajocalendario p {
   color: #fff;
   text-align: left;
   padding: 10px;
@@ -116,7 +116,6 @@
   display: flex;
   width: 500px;
   padding-top: 10px;
-
   margin-bottom: 30px;
   padding-right: 20px;
   justify-content: space-evenly;
@@ -160,7 +159,7 @@
     font-weight: bold;
     text-align: center;
   }
-  .abajocalendario {
+  .bajocalendario {
     margin-bottom: 50px;
   }
 }

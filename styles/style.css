@@ -1035,7 +1035,7 @@ footer {
   background: black;
 }
 
-.abajocalendario {
+.bajocalendario {
   width: 320px;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
@@ -1045,7 +1045,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.abajocalendario p {
+.bajocalendario p {
   color: #fff;
   text-align: left;
   padding: 10px;
@@ -1135,7 +1135,7 @@ footer {
     font-weight: bold;
     text-align: center;
   }
-  .abajocalendario {
+  .bajocalendario {
     margin-bottom: 50px;
   }
 }

@@ -55,7 +55,10 @@
       </nav>
     </header>
     <main>
-      <form>
+      <form
+        action="https://formsubmit.co/ericknicolas_picoli@email.com"
+        method="POST"
+      >
         <h2 class="contacto">Unite a Warg</h2>
         <label for="Nombre">Nombre</label>
 
@@ -63,21 +66,29 @@
           type="text"
           name="Nombre Completo"
           placeholder="Escriba aquí su nombre"
+          required
         />
         <label for="Gamertag">Gamertag</label>
         <input
           type="text"
           name="Gamertag"
           placeholder="Escriba aquí su gamertag"
+          required
         />
         <label for="Email">Email</label>
-        <input type="text" name="Email" placeholder="Escriba aquí su email" />
+        <input
+          required
+          type="text"
+          name="Email"
+          placeholder="Escriba aquí su email"
+        />
         <label for="Consulta">Consulta</label>
         <textarea
+          required
           name="mensaje"
           placeholder="Escriba aquí su mensaje"
         ></textarea>
-        <input class="botoncontacto" type="button" value="enviar" />
+        <input class="botoncontacto" type="button" value="submit" />
       </form>
     </main>
     <footer class="footer">
