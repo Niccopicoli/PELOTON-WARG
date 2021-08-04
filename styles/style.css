@@ -532,6 +532,13 @@ body {
   border-radius: 50%;
   margin-bottom: 5px;
   margin-left: 16px;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.img-circle:hover {
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
 }
 
 .astronautas {
