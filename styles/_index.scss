@@ -1,20 +1,3 @@
-/*index - portadas */
-.portadas {
-  margin: 5%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  border: none;
-}
-.imginicio {
-  width: 230px;
-  height: 300px;
-  transition: 0.5s;
-  border-radius: 10px;
-}
-.imginicio:hover {
-  transform: scale(1.3);
-}
 /*carousel*/
 .carousel-inne {
   position: relative;
@@ -87,6 +70,12 @@
   .textinicio {
     font-size: 1.3rem;
   }
+  .games {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-between;
+  }
 }
 @media (max-width: 750px) {
   .videoinicio {
@@ -105,10 +94,87 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
-}
-@media (max-width: 750px) {
   .textinicio {
     font-size: 1rem;
     align-items: center;
   }
+  .jugadores {
+    width: 100px;
+    height: 150px;
+  }
+  .jugadores figure {
+    width: 100px;
+    height: 150px;
+  }
+  .jugadores figure:hover > .portada h3 {
+    margin: auto;
+  }
+}
+
+/*portadas*/ /*index - portadas */
+.games {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+.jugadores {
+  width: 250px;
+  height: 320px;
+  display: flex;
+  /*justify-content: center;
+  align-items: center;
+  height: 100vh;*/
+}
+.jugadores figure {
+  position: relative;
+  width: 230px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.jugadores figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+.jugadores figure .portada {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(24, 32, 22, 0.8);
+  opacity: 0;
+  transition: all 500ms ease-out;
+  visibility: hidden;
+  text-align: center;
+}
+.jugadores figure:hover > .portada {
+  opacity: 1;
+  visibility: visible;
+}
+.jugadores figure:hover > .portada h3 {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.jugadores figure .portada h3 {
+  color: var(--color-primario);
+  font-size: 1.7rem;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.jugadores figure .portada p {
+  color: var(--color-primario);
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  margin: auto;
+  max-width: 150px;
+}
+.jugadores figure:hover > img {
+  transform: scale(1.2);
 }
