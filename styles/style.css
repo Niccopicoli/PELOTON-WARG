@@ -14,15 +14,15 @@
   border: none;
 }
 
-.img-thumbnail {
+.imginicio {
   width: 230px;
   height: 300px;
-  margin: 2%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  border-radius: 10px;
 }
 
-.img-thumbnail:hover {
+.imginicio:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
 }
@@ -43,7 +43,7 @@
   font-size: 3rem;
   text-align: center;
   margin: 30px;
-  color: #c0d96f;
+  color: var(--color-primario);
   margin-bottom: 50px;
   text-transform: uppercase;
   font-weight: bolder;
@@ -75,7 +75,7 @@
 
 .textinicio a {
   background: none;
-  color: #c0d96f;
+  color: var(--color-primario);
   font-weight: bold;
 }
 
@@ -159,6 +159,10 @@ body {
   background-position: center;
 }
 
+:root {
+  --color-primario: #33cc00;
+}
+
 /*header*/
 .navbar {
   display: -webkit-box;
@@ -190,7 +194,9 @@ body {
 }
 
 .brand-title:hover {
-  color: #c0d96f;
+  /*color: #c0d96f;
+  color: #2bbf07;*/
+  color: var(--color-primario);
 }
 
 #navbar-links {
@@ -237,7 +243,7 @@ body {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: #c0d96f;
+  background-color: var(--color-primario);
   border-radius: 8px;
 }
 
@@ -248,11 +254,11 @@ body {
 }
 
 #navbar-links :hover {
-  color: #c0d96f;
+  color: var(--color-primario);
 }
 
 #navbar-links .active {
-  color: #c0d96f;
+  color: var(--color-primario);
 }
 
 @media (max-width: 750px) {
@@ -429,7 +435,7 @@ body {
 }
 
 .footer404 a {
-  color: #c0d96f;
+  color: var(--color-primario);
   font-size: 14px;
   padding-left: 30px;
   text-decoration: none;
@@ -510,8 +516,8 @@ body {
 
 .btn:hover {
   background: #c0d96f;
-  -webkit-box-shadow: 0 0 10px #c0d96f, 0 0 40px #c0d96f, 0 0 80px #c0d96f;
-          box-shadow: 0 0 10px #c0d96f, 0 0 40px #c0d96f, 0 0 80px #c0d96f;
+  -webkit-box-shadow: 0 0 10px #c0d96f, 0 0 40px var(--color-primario), 0 0 80px var(--color-primario);
+          box-shadow: 0 0 10px #c0d96f, 0 0 40px var(--color-primario), 0 0 80px var(--color-primario);
   -webkit-transition-delay: 1s;
           transition-delay: 1s;
 }
@@ -526,8 +532,8 @@ body {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: -webkit-gradient(linear, left top, right top, from(transparent), to(#c0d96f));
-  background: linear-gradient(90deg, transparent, #c0d96f);
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(var(--color-primario)));
+  background: linear-gradient(90deg, transparent, var(--color-primario));
 }
 
 .btn:hover #span1 {
@@ -541,8 +547,8 @@ body {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: -webkit-gradient(linear, right top, left top, from(transparent), to(#c0d96f));
-  background: linear-gradient(270deg, transparent, #c0d96f);
+  background: -webkit-gradient(linear, right top, left top, from(transparent), to(var(--color-primario)));
+  background: linear-gradient(270deg, transparent, var(--color-primario));
 }
 
 .btn:hover #span3 {
@@ -558,8 +564,8 @@ body {
   right: 0;
   width: 2px;
   height: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#c0d96f));
-  background: linear-gradient(180deg, transparent, #c0d96f);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(var(--color-primario)));
+  background: linear-gradient(180deg, transparent, var(--color-primario));
 }
 
 .btn:hover #span2 {
@@ -575,8 +581,8 @@ body {
   left: 0;
   width: 2px;
   height: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(#c0d96f));
-  background: linear-gradient(360deg, transparent, #c0d96f);
+  background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(var(--color-primario)));
+  background: linear-gradient(360deg, transparent, var(--color-primario));
 }
 
 .btn:hover #span4 {
@@ -742,8 +748,8 @@ textarea {
 .botoncontacto:hover {
   cursor: pointer;
   background: #c0d96f;
-  -webkit-box-shadow: 0 0 10px #c0d96f, 0 0 40px #c0d96f, 0 0 80px #c0d96f;
-          box-shadow: 0 0 10px #c0d96f, 0 0 40px #c0d96f, 0 0 80px #c0d96f;
+  -webkit-box-shadow: 0 0 10px var(--color-primario), 0 0 40px var(--color-primario), 0 0 80px var(--color-primario);
+          box-shadow: 0 0 10px var(--color-primario), 0 0 40px var(--color-primario), 0 0 80px var(--color-primario);
 }
 
 label {
@@ -798,7 +804,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 130px;
-  color: white;
+  color: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -811,14 +817,14 @@ footer {
 .imgfooter {
   width: 40px;
   height: 40px;
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
 .imgfooter:hover {
   background: #c0d96f;
-  -webkit-box-shadow: 0 0 10px #c0d96f, 0 0 40px #c0d96f, 0 0 80px #c0d96f;
-          box-shadow: 0 0 10px #c0d96f, 0 0 40px #c0d96f, 0 0 80px #c0d96f;
+  -webkit-box-shadow: 0 0 10px var(--color-primario), 0 0 40px var(--color-primario), 0 0 80px var(--color-primario);
+          box-shadow: 0 0 10px var(--color-primario), 0 0 40px var(--color-primario), 0 0 80px var(--color-primario);
   border-radius: 25px;
 }
 
@@ -914,7 +920,7 @@ footer {
 }
 
 .agendado {
-  color: #c0d96f !important;
+  color: var(--color-primario) !important;
 }
 
 .calendario ol li {
@@ -927,7 +933,7 @@ footer {
 }
 
 .day {
-  color: #c0d96f !important;
+  color: var(--color-primario) !important;
   font-weight: bold;
   font-weight: bold;
   text-align: center;
@@ -987,7 +993,7 @@ footer {
 }
 
 .agenda h4 {
-  color: #c0d96f;
+  color: var(--color-primario);
   font-size: 1.2rem;
   text-transform: uppercase;
   padding-left: 10px;
