@@ -23,7 +23,7 @@
   font-size: 3rem;
   text-align: center;
   margin: 30px;
-  color: var(--color-primario);
+  color: #fff;
   margin-bottom: 50px;
   text-transform: uppercase;
   font-weight: bolder;
@@ -57,6 +57,8 @@
   background: none;
   color: var(--color-primario);
   font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 .contactoinicio {
@@ -87,6 +89,8 @@
   }
   .videoinicio {
     margin: auto;
+    width: 500px;
+    height: 400px;
   }
   .textinicio {
     font-size: 1.3rem;
@@ -106,8 +110,9 @@
 
 @media (max-width: 750px) {
   .videoinicio {
-    width: 450px;
-    height: 350px;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
   }
   .textinicio {
     font-size: 1.2rem;
@@ -131,7 +136,7 @@
     width: 100px;
     height: 150px;
   }
-  .jugadores figure {
+  .jugadores figure img {
     width: 100px;
     height: 150px;
   }
@@ -239,11 +244,6 @@
 
 body {
   background-color: #1a1d1d;
-  /*background: url(/img/estrellas.jpg);*/
-  min-height: 100vh;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 :root {
@@ -750,7 +750,7 @@ body {
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 750px) {
   .textpresentaciones {
     font-size: 1.5rem;
   }
@@ -774,13 +774,13 @@ body {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .astronautas {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 100vh;
+    height: auto;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -897,7 +897,6 @@ footer {
   background-color: #0f0f0f;
   bottom: 0;
   width: 100%;
-  height: 130px;
   color: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -989,7 +988,7 @@ footer {
   height: 210px;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   padding: 3px;
 }
 
@@ -1006,6 +1005,7 @@ footer {
   -ms-grid-columns: (1fr)[7];
       grid-template-columns: repeat(7, 1fr);
   padding: 0;
+  padding-bottom: 20px;
 }
 
 .calendario ol li {
@@ -1037,11 +1037,12 @@ footer {
 
 .abajocalendario {
   width: 320px;
-  height: 400px;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  margin-top: 50px;
+  margin-top: 15px;
   padding: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .abajocalendario p {
@@ -1120,7 +1121,7 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
