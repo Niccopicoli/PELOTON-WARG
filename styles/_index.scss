@@ -7,7 +7,13 @@
 .fotocarousel {
   max-height: 85vh;
 }
-
+.textcarousel {
+  color: var(--color-primario);
+}
+.carousel-caption h1 {
+  color: var(--color-primario);
+  font-size: 20px;
+}
 /*Presentacion index*/
 .somoswarg {
   font-size: 3rem;
