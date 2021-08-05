@@ -753,10 +753,10 @@ body {
     text-align: center;
   }
   .imgprueba {
-    padding: 5px;
-    margin: 10px;
-    width: 400px;
-    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    width: 380px;
+    height: 380px;
   }
 }
 
