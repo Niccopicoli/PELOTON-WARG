@@ -859,6 +859,10 @@ label {
   form {
     width: 80%;
   }
+  textarea {
+    height: 100px;
+    width: auto;
+  }
 }
 
 /*Galeria - Multimedia*/
